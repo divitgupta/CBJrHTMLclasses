@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 9</title>
+</head>
+<body style="background-color: aqua;">
+    <h1>Reservation Request</h1>
+    <form>
+        <fieldset style="border-color: chartreuse;">
+            <legend>General Information</legend>
+            <label for="date">Arrival Date: </label>
+            <input id="date" type="date">
+            <br>
+            <label for="nights">Nights:</label>
+            <input id="nights" type="number">
+            <br>
+            <label for="Adults">Adults:</label>
+            <input id="Adults" type="number">
+            <br>
+            <label for="children">Children:</label>
+            <input id="children" type="number">
+        </fieldset>
+        <fieldset style="border-color: greenyellow;">
+            <legend>Preferences</legend>
+            <label for="Room type">Room Type:</label>
+            <input id="Room type" type="checkbox">Standard
+            <input id="Room type" type="checkbox">Bussiness
+            <input id="Room type" type="checkbox">Suite
+            <input id="Room type" type="checkbox">Luxury (with personnal swimming pool)
+            <input id="Room type" type="checkbox">Luxury (without personnal swinning pool)
+            <br>
+            <label for="Bed">Bed type:</label>
+            <input id="Bed" type="checkbox">King 
+            <input id="Bed" type="checkbox">Queen
+            <input id="Bed" type="checkbox">Children (single single beds)
+            <br>
+            <label for="Smoke">Smoking room: </label>
+            <input id="Smoke" type="checkbox">Yes
+            <input id="Smoke" type="checkbox">No 
+            <br>
+            <label for="Food">Food Options:</label>
+            <input id="Food" type="text">
+            <br>
+            <label for="breakfast">Breakfast include:</label>
+            <input id="breakfast" type="checkbox">Yes
+            <input id="breakfast" type="checkbox">No
+        </fieldset>
+        <fieldset style="border-color: orange;">
+            <legend>Personnal Information</legend>
+            <label for="name">Name:</label>
+            <input id="name" type="text">
+            <br>
+            <label for="email">Email:</label>
+            <input id="email" type="email">
+            <br>
+            <label for="Phone">Phone:</label>
+            <input id="Phone" type="tel">
+            <br>
+            <label for="password">Password for entering:</label>
+            <input id="password" type="password">
+        </fieldset>
+        <fieldset style="border-color: hotpink;">
+            <legend>Distance Information</legend>
+            <label for="fuel">Fuel meter:</label>
+            <meter id="fuel" name="fuel" min="0" max="100" value="51" low="30" high="60" optimum="80"></meter>
+            <br>
+            <label for="progress">Progress Bar:</label>
+            <progress id="progress" name="progress" value="70" max="100" min="0" low="30" high="60"></progress>
+            <br>
+            <label for="para"> Write About the Place of Visit:</label>
+            <textarea name="para" id="para" cols="20" rows="5" placeholder="Enter your paragraph"></textarea>
+        </fieldset>
+        <input type="submit" style="font-size: large;color: teal; background-color: beige; ">
+        <br>
+        <input type="reset" style="font-size: large;color: teal; background-color: beige; ">
+    </form>    
+</body>
+</html>
